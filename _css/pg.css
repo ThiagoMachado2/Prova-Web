@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.body {
+    font-family: 'Inter', sans-serif;
+}
+
+#nav {
+    background-color: #F5F7FA;
+    padding: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid #dee2e6;
+}
+
+#nav .logo {
+    height: 30px;
+    width: auto;
+}
+
+#nav .nav-link {
+    font-weight: 500;
+    color: #1b1b1b;
+    transition: all 0.3s;
+}
+
+
+#nav .btn-primary {
+    border-radius: 5px;
+    font-weight: 500;
+
+}
+
+
+#nav .btn-success {
+    border-radius: 5px;
+    font-weight: 500;
+
+}
+
+#Carrosel {
+    background-color: #F5F7FA;
+}
+
+#tela-5 {
+    background-color: #F5F7FA;
+}
+
+#tela-7 {
+    background-color: #F5F7FA;
+}
+
+#fim {
+    background-color: #F5F7FA;
+}
+
+.h1-carrosel {
+    font-size: 64px;
+    color: #4D4D4D;
+}
+
+.h2-carrosel {
+    font-size: 64px;
+    color: #43A046;
+}
+
+.h1-titulo-64px {
+    font-size: 64px;
+    color: #263238;
+}
+
+.h1-text {
+    font-size: 36px;
+    color: #4D4D4D;
+}
+
+.h2-text {
+    font-size: 36px;
+    color: #43A046;
+}
+
+.p-text {
+    font-size: 16px;
+    color: #717171
+}
+
+.p2-text {
+    font-size: 16px;
+    color: #89939E
+}
+
+.main-title {
+    font-size: 36px;
+    color: #4D4D4D;
+}
+
+#nome-text {
+    font-size: 20px;
+    color: #43A046;
+
+}
+
+.sub-title {
+    font-size: 16px;
+    color: #717171;
+}
+
+.card-title {
+    font-size: 28px;
+    color: #4D4D4D;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #717171;
+}
+
+#cards-shadow {
+    width: 299px;
+    height: 280px;
+    border-radius: 8px;
+    padding: 24px, 32px, 24px, 32px;
+    gap: 8px;
+}
+
+#cads-img {
+    width: 368px;
+    height: 366px;
+    border-radius: 8px;
+}
+
+#btn-green {
+    background-color: #43A046;
+    width: 128px;
+    height: 52px;
+    border-radius: 4px;
+    padding: 14px, 32px, 14px, 32px;
+    gap: 10px;
+}
+
+#btn-green-fim {
+    background-color: #43A046;
+    width: 178px;
+    height: 52px;
+    border-radius: 4px;
+    padding: 14px, 32px, 14px, 32px;
+    gap: 8px;
+}
+
+#btn-green-t7 {
+    background-color: #F5F7FA;
+    color: #43A046;
+    height: 44px;
+    width: 223px;
+    padding: 8px;
+    gap: 8px;
+
+}
+
+#cards-container {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#button-nav-r {
+    background-color: #43A046;
+}
+
+#texto-carrosel {
+    padding-top: 130px;
+}
+
+#card-body {
+    width: 299px;
+    height: 260px;
+    border-radius: 8px;
+    padding: 24px, 32px, 24px, 32px;
+    gap: 8px;
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+    /* Para esconder o texto que estiver fora da imagem */
+}
+
+#button-card {
+    color: #F5F7FA;
+
+}
+
+.card .card-img-overlay {
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    width: 85%;
+    /* Ajuste a largura conforme necessário */
+    height: 30%;
+    /* Ajuste a altura conforme necessário */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F7FA;
+    padding: 20px;
+}
+
+.card .card-img-overlay p {
+    margin: 0;
+    text-align: center;
+    background-color: #F5F7FA;
+}
+
+#card-complemento {
+    background-color: #F5F7FA;
+}
+
+
+#footer {
+    background-color: #263238;
+    color: #fff;
+    padding: 40px 0;
+    /* Espaçamento interno do footer */
+}
+
+#footer .logo_footer {
+    max-width: 100px;
+    /* Largura máxima do logo */
+    margin-bottom: 20px;
+    /* Margem inferior do logo */
+}
+
+#footer h3 {
+    font-size: 20px;
+}
+
+#footer ul {
+    font-size: 14px;
+    list-style: none;
+    /* Remover marcadores de lista */
+    padding: 0;
+    /* Remover preenchimento padrão da lista */
+}
+
+#footer ul li {
+    margin-bottom: 10px;
+    /* Espaçamento entre os itens da lista */
+}
+
+
+.social-media-bar {
+    background-color: #263238;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 0 10px;
+}
+
+.social-media-bar a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-media-bar a:hover {
+    color: #ccc;
+}
+
+.social-media-bar img {
+    display: block;
+}
+
+
+
+#input-email {
+    background-color: #717171;
+    border-color: #717171;
+}
+
+.form-control::placeholder {
+    color: #D9DBE1;
+    font-size: 14px;
+}
+
+.btn .fas.fa-paper-plane {
+    color: #ffffff;
+}
+
+.input-group {
+    position: relative;
+    background-color: #717171;
+}
+
+.input-group-append {
+    background-color: #717171;
+    position: absolute;
+    top: 5;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
